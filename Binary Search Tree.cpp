@@ -18,28 +18,7 @@ class BST
 			rootNode.left=NULL;
 			rootNode.right=NULL;
 		}
-		
-		/*Node *search(int val, Node *searchitem)
-		{
-			if(searchitem->val>val && searchitem->left!=NULL)
-			{
-				return search(val, searchitem->left);
-			}
-			else if(searchitem->val<val && searchitem->right!=NULL)
-			{
-				return search(val, searchitem->right);
-			}
-			else if(searchitem->val == val)
-			{
-				return searchitem;
-			}
-			
-			else
-				return NULL;
-		}*/
-		
-		
-		
+
 		
 		void insert(int val, Node *insertNode)
 		{
@@ -130,8 +109,6 @@ class BST
 		}
 	}
 			
-			
-				
 		
 };
 
